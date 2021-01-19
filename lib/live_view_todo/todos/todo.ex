@@ -9,6 +9,8 @@ defmodule LiveViewTodo.Todos.Todo do
     timestamps()
   end
 
+
+
   @doc false
   def changeset(todo, attrs) do
     todo
